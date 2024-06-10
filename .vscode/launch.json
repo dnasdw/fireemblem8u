@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/fireemblem8_modern.elf",
+            "targetArchitecture": "arm",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "windows": {
+                "miDebuggerServerAddress": "localhost:2345",
+                "miDebuggerPath": "${env:DEVKITARM}/bin/arm-none-eabi-gdb.exe"
+            }
+        }
+    ]
+}
